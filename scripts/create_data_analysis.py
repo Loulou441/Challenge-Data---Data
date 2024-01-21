@@ -1,16 +1,16 @@
 """
-Script de création des statistiques sur les prix des montres.
+Script for creating watch price statistics.
 
-Auteur: Manon Tessier
+Author: Manon Tessier
 Date: 2023-12-04
 
-La fonction create_stats_by_market prend en entrée un dataframe contenant les données sur les montres d'un certain marché et donne
-en sortie un autre dataframe contenant des statistiques telles que la moyenne des prix, le prix médian, le prix max... en 2021 et en 2023.
-La fonction create_stats_by_market_and_collection fait strictement la même chose mais en filtrant en plus sur une collection particulière.
+The create_stats_by_market function takes as input a dataframe containing data on watches in a certain market, and gives as output
+as output another dataframe containing statistics such as average price, median price, max price... in 2021 and 2023.
+The create_stats_by_market_and_collection function does strictly the same thing, but with additional filtering on a particular collection.
 
-Points d'amélioration possibles :
-- Les deux fonctions peuvent être regroupées en 1 seule en mettant une valeur à collection en entrée et un if... pour filtrer le dataframe 
-derrière
+Possible points for improvement:
+- The two functions can be combined into 1 by setting a collection value as input and an if... to filter the dataframe 
+behind
 """
 
 import pandas as pd

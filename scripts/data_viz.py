@@ -1,15 +1,15 @@
 """
-Script de création des graphiques pour visualiser les données.
+Script for creating graphs to visualize data.
 
-Auteur: Manon Tessier
+Author: Manon Tessier
 Date: 2023-12-04
 
-Ce script prend les fichiers de données Excel contenant des informations de prix sur les montres, utilise la bibliothèque pandas
-pour effectuer le nettoyage et la transformation des données, puis utilise pandas pour générer des graphiques avec matplotlib pour
-visualiser les statistiques de prix.
+This script takes Excel data files containing price information on watches, uses the pandas library
+library to perform data cleansing and transformation, then uses pandas to generate graphs with matplotlib to
+price statistics.
 
-Limitations actuelles :
-- Visualisation "à la main" en commentant / décommentant les lignes.
+Current limitations:
+- Visualization "by hand" by commenting / uncommenting lines.
 """
 
 import matplotlib.pyplot as plt

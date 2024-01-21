@@ -1,18 +1,18 @@
 """
-Script de récupération des données clés du site Panerai.com
+Script to recover key data from the Panerai.com website
 
-Auteur: Manon Tessier
+Author: Manon Tessier
 Date: 2023-12-04
 
-La fonction webcrapper prend en entrée une url et renvoie en sortie un dataframe contenant les données sur les 
-montres (nom, prix...) d'un certain pays et d'une certaine collection.
+The webcrapper function takes as input a url and returns as output a dataframe containing data on watches 
+watches (name, price...) from a certain country and a certain collection.
 
-Limitations actuelles :
-- le chrome driver ne marche que pour chrome version 114 et antérieur.
-- les listes des sites à visiter et des montres à ne pas inclure ne sont pas dynamique --> changement manuel nécessaire
-Points d'amélioration possibles :
-- Utiliser la page d'accueil de Panerai.com pour aller chercher les page d'accueil des pays concernés et 
-descendre dynamiquement pour aller chercher les urls des collections
+Current limitations :
+- the chrome driver only works with chrome version 114 and earlier.
+- the lists of sites to visit and watches not to include are not dynamic --> manual change required
+Possible improvements :
+- Use the Panerai.com home page to fetch the home pages of the countries concerned, and dynamically scroll down to fetch the urls of the countries concerned. 
+dynamically scroll down to fetch collection urls
 """
 
 #importing libraries to scrap
